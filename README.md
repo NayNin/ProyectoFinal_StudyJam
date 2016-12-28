@@ -72,7 +72,7 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 .
 
 **`Funcionalidad:`**
-* Mostar contenido navideño para combinar colores.
+* Mostrar contenido navideño para combinar colores.
 * Mostrar una serie de adornos para poder utilizarlos en estas fiestas navideñas.
 .
 .
