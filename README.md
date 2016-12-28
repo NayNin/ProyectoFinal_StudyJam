@@ -20,13 +20,12 @@ Caracteristicas
 ---
 * Visualizar combinaciones de colores para decoraciones o vestimenta
 * Visualizar manualidades para navidad.
-* Visualizar decoraciones para navidad.
 
 Wireframes
 ---
 Puedes visualizar los Wireframes de este proyecto.
 
-https://ninjamock.com/s/HHDDEE
+https://ninjamock.com/
 
 Compatibilidad
 ---
@@ -36,7 +35,7 @@ Uso
 ---------
 Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
->     $ git clone https://github.com/Gusn8/ProyectoFinal_StudyJam.git
+>     $ git clone https://github.com/NayNin/ProyectoFinal_StudyJam.git
 
 Luego de ello dentro de Android Studio:
 
@@ -66,16 +65,15 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 **`Vista:`**
 * LinearLayout (Horizontal) para la alineación de las vistas principales.
 * RelativeLayout, para el acomodamiento de la segunda pantalla: SegundaActivity.
-* booton, para poder acceder a nuevos
-* EditTexts, para recabar información acerca de los nombres de las personas.
+* button, para poder acceder a nuevos Activity's
+* Scrowview, Para desplazar los componentes de la aplicacion
 .
 .
 .
 
 **`Funcionalidad:`**
-* MediaPlayer, para reproducir la canción de fondo de la app.
-* Vibrator, para asignar una vibración en ciertas partes de la app.
-* Ciclo de vida de una Activity, para detectar cuando se coloca en Pausado asi pueda seguir ejecutandose una tarea.
+* Mostar contenido navideño para combinar colores.
+* Mostrar una serie de adornos para poder utilizarlos en estas fiestas navideñas.
 .
 .
 .
