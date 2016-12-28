@@ -31,10 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(getApplicationContext(), DecoracionesActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.btnmanuali:
-                intent = new Intent(getApplicationContext(), DecoracionesActivity.class);
-                startActivity(intent);
-                break;
+
             case R.id.btnCombina:
                 intent = new Intent(getApplicationContext(), CombinacionActivity.class);
                 startActivity(intent);
@@ -43,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
     public void initUI() {
-        btnmanuali= (Button) findViewById(R.id.btnmanuali);
+       // btnmanuali= (Button) findViewById(R.id.btnmanuali);
         btndecora = (Button) findViewById(R.id.btndecora);
         btnCombina = (Button) findViewById(R.id.btnCombina);
 
@@ -52,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initOnclick() {
         btnCombina.setOnClickListener(this);
         btndecora.setOnClickListener(this);
-        btnmanuali.setOnClickListener(this);
+       // btnmanuali.setOnClickListener(this);
 
     }
 

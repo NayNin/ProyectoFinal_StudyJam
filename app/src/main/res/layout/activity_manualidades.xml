@@ -8,99 +8,97 @@
     android:orientation="vertical"
     tools:context="com.example.nayra.proyectofinal_studyjam.ManualidadesActivity">
 
-    <View
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@android:color/white"></View>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/main.height.cero"
-        android:orientation="vertical"
-        android:layout_weight="4.6">
-        <RelativeLayout
+        android:layout_height="115dp">
+
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/fon"
-                android:scaleType="centerCrop"/>
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:alpha="0.7"
+            android:background="@android:color/black"
+            android:orientation="vertical">
+
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/black"
-                android:alpha="0.7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/main.height.cero"
-                    android:layout_weight="1">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/main.iv.ancho"
-                        android:src="@drawable/logoo"
-                        android:layout_gravity="center|bottom"
-                        android:layout_weight="1"
-                        android:id="@+id/imageView" />
-                </LinearLayout>
+                android:weightSum="1">
 
                 <TextView
-                    android:id="@+id/tvMensaje"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/main.height.cero"
-                    android:text="@string/main.tv.mensaje"
+                    android:layout_marginTop="@dimen/main.tv.margintop"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:padding="@dimen/main.tv.padding"
+                    android:text="@string/main.tv.mensajeD"
                     android:textColor="@android:color/white"
                     android:textSize="@dimen/main.tv.textsize.mensaje"
-                    android:gravity="top|center_horizontal"
-                    android:layout_marginTop="@dimen/main.tv.margintop"
-                    android:padding="@dimen/main.tv.padding"
-                    android:layout_weight="1"/>
+                    android:id="@+id/textView" />
             </LinearLayout>
-        </RelativeLayout>
-    </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@android:color/white"></View>
+        </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="@color/colorNegro"
-        android:layout_weight="0.2">
+        android:layout_height="486dp"
+        android:background="@color/colorBlanco"
+        android:orientation="vertical">
 
-        <Button
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/boton_dos"
-            android:textColor="@android:color/white"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:textAllCaps="false"
-            android:layout_marginTop="10dp"
-            android:text="@string/main.tv.decoracion"
-            android:id="@+id/buttonDecoraciones" />
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="230dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/boton_dos"
-            android:textColor="@android:color/white"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:textAllCaps="false"
-            android:layout_marginTop="10dp"
-            android:text="@string/main.tv.deManualidades"
-            android:id="@+id/buttonManualidades" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="571dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/main.tv.margintop"
+                    android:layout_weight="1"
+                    android:gravity="top|center_horizontal"
+                    android:padding="1dp"
+                    android:text="@string/main.tv.mensajeManu"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/main.tv.textsize.mensaje1"
+                    android:background="@color/colorNegro"
+                    android:id="@+id/textView3" />
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorNegro"
+                    android:layout_weight="2.65"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/manu1"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
-
 
 </LinearLayout>

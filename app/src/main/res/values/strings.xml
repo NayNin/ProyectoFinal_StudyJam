@@ -2,6 +2,12 @@
     <string name="app_name">ProyectoFinal_StudyJam</string>
 
     <string name="main.tv.mensaje">La vida esta llena de muchos colores. Depende de nosotros utilizarlos en el momento exacto</string>
+    <string name="main.tv.mensajeD">La casa debe ser el estuche de la vida, la máquina de felicidad... De:Le Corbusier</string>
+    <string name="main.tv.mensajeDPuertas">Decoracion de puertas</string>
+    <string name="main.tv.mensajeDMesas">Decoracion de la mesa</string>
+    <string name="main.tv.mensajeDBotas">Decoracion de botas</string>
+    <string name="main.tv.mensajeDalmo">Decoracion de almohadas</string>
+    <string name="main.tv.mensajeManu">Manualidades</string>
     <string name="main.tv.colorr">Rojo</string>
     <string name="main.tv.Combina">Combinacion de Colores</string>
     <string name="main.tv.decoracion">Decoraciones</string>
