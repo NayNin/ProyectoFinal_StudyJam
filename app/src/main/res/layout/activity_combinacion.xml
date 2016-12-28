@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context="com.example.nayra.proyectofinal_studyjam.CombinacionActivity">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNegro"
+        android:orientation="horizontal"
+        android:layout_weight="0.2"
+        >
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_dos"
+            android:textColor="@android:color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:text="@string/main.tv.Combina"
+            android:layout_weight="0.32"
+            android:id="@+id/button2" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/white"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main.height.cero"
+        android:orientation="vertical"
+        android:layout_weight="4.6">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fon"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:alpha="0.7"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main.height.cero"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/main.iv.ancho"
+                        android:src="@drawable/logoo"
+                        android:layout_gravity="center|bottom"
+                        android:layout_weight="1"
+                        android:id="@+id/imageView" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/main.height.cero"
+                    android:text="@string/main.tv.mensaje"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/main.tv.textsize.mensaje"
+                    android:gravity="top|center_horizontal"
+                    android:layout_marginTop="@dimen/main.tv.margintop"
+                    android:padding="@dimen/main.tv.padding"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
